@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rocketseat</title>
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="/front-end/desafios/desafio3/style.css" />
+
+  </head>
+
+  <body>
+    <header>
+      <div class="links">
+        <img src="img/logo-rocketseat.svg" alt="logo">
+        <h1>Rocketseat</h1>
+        <!-- <a href="index.html">Sobre</a>
+        <a href="classes.html">Aulas</a> -->
+      </div>
+    </header>
+
+    <div id="wrapper">
+      <h2>Cursos de Programação</h2>
+    </div>
+
+    <!-- Início dos cards -->
+    <section class="cards"> 
+
+      <div class="card"  id="starter">
+        <div class="card__image-container">
+          <img src="img/starter-icon.svg" alt="starter"/>
+        </div>
+        <div class="card__content">
+          <p>43 Módulos</p>
+        </div>
+        <div class="card__info">
+          <p class="card__price">Free</p>
+        </div>
+      </div>
+
+      <div class="card" id="launchbase">
+        <div class="card__image-container">
+          <img src="img/launchbase-icon.svg" alt="launchbase" />
+        </div>
+        <div class="card__content">
+          <p>26 Módulos</p>
+        </div>
+        <div class="card__info">
+          <p class="card__price">Comprar</p>
+        </div>
+      </div>
+
+      <div class="card" id="gostack">
+        <div class="card__image-container">
+          <img
+            src="img/gostack-icon.svg"
+            alt="gostack"
+          />
+        </div>
+        <div class="card__content">
+          <p>30 Módulos</p>
+        </div>
+        <div class="card__info">
+          <p class="card__price">Comprar</p>
+        </div>
+      </div>
+    </section>
+    <!-- Final dos cards -->
+
+    <div class="modal-overlay">
+      
+      <div class="modal">
+        <a class="maximize-modal">
+          <i class="material-icons">aspect_ratio</i>
+        </a>
+
+        <a class="close-modal">
+          <i class="material-icons">close</i>
+        </a>
+        
+        <div class="modal-content">
+          <iframe src="" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script src="/front-end/desafios/desafio3/scripts.js"></script>
+  </body>
+</html>
