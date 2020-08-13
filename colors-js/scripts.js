@@ -44,8 +44,8 @@ function lumiance(hex, luminosity = 0) {
 
 
 // Controlar o Slider com JS
-var $slider = $("#slider");
-var $fill = $(".bar .fill");
+let $slider = $("#slider");
+let $fill = $(".bar .fill");
 
 function setBar() {
 	$fill.css("width", $slider.val() + "%");
