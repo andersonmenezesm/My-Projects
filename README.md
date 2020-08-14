@@ -1,5 +1,5 @@
 # Mini Features
-Repository to use in projects, the code is ready to use. 
+This repository consists of several excerpts or mini projects that I develop to exercise, study and explore the knowledge that I am studying in my dev career.
 
 ## Projetos em React e Node
 
