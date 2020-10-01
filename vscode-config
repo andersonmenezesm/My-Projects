@@ -1,0 +1,75 @@
+{
+  // Define o tema do VSCode
+  "workbench.colorTheme":"Dracula",
+
+  // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "terminal.integrated.shell.windows": "C:\\Users\\anderson.m.menezes\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
+  // "terminal.integrated.shell.windows": "C:\\\Windows\\System32\\powershell.exe",
+
+  // Is git enabled
+  "git.enabled": true,
+
+  // Path to the git executable
+  "git.path": "C:\\path\\to\\git.exe",
+
+  // other settings
+
+  // Configura tamanho e família da fonte
+  "editor.fontSize":14,
+  "editor.lineHeight":24,
+  "editor.fontFamily":"Fira Code",
+  "editor.fontLigatures":true,
+  "window.zoomLevel": 0,
+
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [
+    80,
+    120
+  ],
+
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight":"gutter",
+
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize":14,
+
+  // Define o tema dos ícones na sidebar
+"workbench.iconTheme": "material-icon-theme",
+"explorer.compactFolders": false,
+"java.home": "C:\\Program Files\\Java\\jdk-11.0.8",
+// "java.home": "C:\\Program Files\\Java\\jdk1.8.0_261",
+"java.help.firstView": "gettingStarted",
+"editor.suggestSelection": "first",
+"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+"workbench.startupEditor": "newUntitledFile",
+"files.autoSave": "off",
+"liveServer.settings.donotShowInfoMsg": true,
+
+// Sugestões de Paramêtros automático do VSC
+"editor.parameterHints.enabled": false,
+
+"emmet.includeLanguages": {
+  "jsp": "html",
+  "nunjucks": "html"
+},
+
+"material-icon-theme.files.associations": {
+  "*.html": "nunjucks"
+},
+
+"java.configuration.runtimes": [
+  {
+    "name": "JavaSE-11",
+    "path": "C:\\Program Files\\Java\\jdk-11.0.8\\bin",
+    "default": true
+  },
+],
+"java.configuration.checkProjectSettingsExclusions": false,
+
+"files.associations": {
+  "*.tag": "jsp",
+  "*.html": "njk"
+},
+"git.ignoreMissingGitWarning": true,
+}
+
